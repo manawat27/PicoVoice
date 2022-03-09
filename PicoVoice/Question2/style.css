@@ -1,0 +1,122 @@
+.text{
+    font-size: 8.5pt;
+}
+
+.stars{
+    left: 2pt;
+    display: flex;
+}
+
+.stars a{
+    opacity: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.stars.disabled{
+    pointer-events: none;
+
+}
+
+.stars:hover a{
+    opacity: 100%;
+}
+
+.stars a:hover{
+    opacity: 100%;
+}
+
+.stars a:hover ~ a{
+    opacity: 50%;
+}
+
+.stars a.active{
+    position: relative;
+    opacity: 100%;
+}
+
+.stars a.active:after{
+    left: 2px;
+    position: absolute;
+    content: '\2605';
+}
+
+
+.stars2{
+    left: 2pt;
+    display: flex;
+}
+
+.stars2 a{
+    opacity: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.stars2.disabled{
+    pointer-events: none;
+
+}
+
+.stars2:hover a{
+    opacity: 100%;
+}
+
+.stars2 a:hover{
+    opacity: 100%;
+}
+
+.stars2 a:hover ~ a{
+    opacity: 50%;
+}
+
+.stars2 a.active{
+    position: relative;
+    opacity: 100%;
+}
+
+.stars2 a.active:after{
+    left: 2px;
+    position: absolute;
+    content: '\2605';
+}
+
+.stars3{
+    left: 2pt;
+    display: flex;
+}
+
+.stars3 a{
+    opacity: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.stars3.disabled{
+    pointer-events: none;
+
+}
+
+.stars3:hover a{
+    opacity: 100%;
+}
+
+.stars3 a:hover{
+    opacity: 100%;
+}
+
+.stars3 a:hover ~ a{
+    opacity: 50%;
+}
+
+.stars3 a.active{
+    position: relative;
+    opacity: 100%;
+}
+
+.stars3 a.active:after{
+    left: 2px;
+    position: absolute;
+    content: '\2605';
+}
+
